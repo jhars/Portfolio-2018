@@ -1,0 +1,163 @@
+/*-------------------------------
+
+	CUSTOM POPUP.CSS
+
+-------------------------------*/
+
+
+.pop-up-box {
+    display: none;
+    text-align: center;
+
+}
+#pop-margin { /*HERE*/
+
+    padding:35px;
+}
+.desc {
+
+}
+.popup{
+
+}
+
+.popup-content img {
+    width: 50%;
+    z-index:999;
+}
+
+img.hidden-xs {
+    width: 100%;
+}
+
+.popup_content {
+
+    border: 5px solid #07397F;
+    z-index:1999;
+    height:50%;
+    margin-left: 200px;
+    margin-right: 200px;
+    background: url(../img/right-panel/Light_Wood.jpg);
+    background-size: 100%;
+
+}
+
+.popup-content h3 {
+    text-align: center;
+}
+
+.popup-content a {
+    border: 1px solid #07397F;
+    color: black;
+    margin: auto;
+    text-decoration: none;
+    text-align: center;
+/*-------CUSTOM CENTERING-------*/
+    width: 60%;
+    padding: 10px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    background: url(../img/right-panel/Light_Wood.jpg);
+}
+
+.popup_content a:hover {
+    background: #07397F;
+    color: #fff;
+}
+
+
+/*----- Popup Sty;es [ END CUSTOM ] --------*/
+
+
+
+/*-------------------------------
+
+	POPUP.CSS
+
+-------------------------------*/
+
+.popup_back {
+	height: 50%;
+	/*left: 0;*/
+	position: fixed;
+	top: 0;
+	/*max-width: 800px;*/
+	z-index: 1200;
+	background-color: #fff;
+}
+
+.popup_cont {
+	position: fixed;
+	z-index: 1100;
+	/*height:90%;*/
+}
+
+.preloader {
+	z-index: 1110;
+}
+
+/*---------------------
+
+	EDIT BELOW
+
+*/
+
+.popup_close {
+	color: #fff;
+	cursor: pointer;
+    background: #343333;
+	position: fixed;
+	right:0;
+	top:0;
+	z-index: 1300;
+	width:100px;
+	height:150px;
+	size:120px;
+
+}
+.popup_close{
+ /*margin-top:5%;*/
+  font-size: 100px;
+    text-align: center;
+
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    .popup_close {
+        color: #fff;
+        background: #343333;
+    }
+
+    .popup-content img {
+        height: 50%;
+        z-index:999;
+    }
+
+    .popup_content {
+        border: 5px solid #07397F;
+        z-index:1999;
+        width: 350px;
+        margin-top: 50px;
+        background: url(../img/right-panel/Light_Wood.jpg);
+    }
+}
+
+.popup_back {
+	cursor: pointer;
+	background-color: #222;
+}
+/*Custom Section CSS*/
+
+.preloader {
+	left: 50%;
+	margin: -10px 0 0 -25px;
+	position: fixed;
+	top: 50%;
+}
+
+
