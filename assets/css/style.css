@@ -623,7 +623,7 @@ iframe {
 
 }
 #customizer {
-    width:700px;
+    width:600px;
     height: 700px;
     margin-left: 50px;
 }
@@ -834,7 +834,8 @@ iframe {
 .service-page .image-container {
     background: url(../img/right-panel/Dark_Wood.jpg);
     background-size: cover;
-    background-position: bottom;
+    /* background-position: bottom; */
+    /* margin-bottom: 200px; */
 }
 
 /*---------  service-flip------------------*/
@@ -1313,4 +1314,8 @@ input#cfsubmit:hover {
     height:90%;
     width:90%;
     padding-left: 100px;
+}
+
+.skill-images {
+  margin-bottom: 150px;
 }

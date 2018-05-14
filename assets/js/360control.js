@@ -18,20 +18,9 @@ var ALPHA;
 var DIFF = 0;
 ctx.drawImage(image, 0, height * currentFrame, width, height, 0, 0, width, height);
 
-
-
-// var iphoneMarker = document.getElementById("shot-iphone");
-// var ictx = iphoneMarker.getContext("2d");
-// var shotIphone = new Image()
-// shotIphone.src = './images/shotOnMyIphone.png';
-// console.log("img loades");
-
-
-
-
 function initControl() {
 	var X = [];
-	var DELTA; 
+	var DELTA;
 
 	canvas.addEventListener("mousedown", doMouseDown, false);
 	canvas.addEventListener("touchstart", doMouseDown, false);
@@ -39,34 +28,17 @@ function initControl() {
 	function doMouseDown (event) {
 		X[0] = event.pageX;
 
-
-
-
-
-
-		
-	
-
-
-
-
-		// ictx.drawImage(shotIphone, 69, 58);
-		// ictx.drawImage(shotIphone, 400, 400, 400, 400);
-		// console.log("img DRAWN");
-
-			canvas.addEventListener("touchmove", mouseX, true);
+		canvas.addEventListener("touchmove", mouseX, true);
 		canvas.addEventListener("touchend", mouseUp, false);
 
 		canvas.addEventListener("mousemove",mouseX, false);
 		document.body.addEventListener("mouseup", mouseUp, false);
-
 
 	};
 
 	function mouseUp(event) {
 	  canvas.removeEventListener("mousemove",mouseX, false);
 	  canvas.addEventListener("touchmove", mouseX, true);
-
 	};
 
 	function mouseX (event) {
@@ -80,15 +52,15 @@ function initControl() {
 	  		} else {
 	  			currentFrame++;
 	  		}
-	  	} 	
+	  	}
 	  	if (B > A) {//dragging LEFT
 	  		if (currentFrame < bottomFrame ) {//or TRY 1 here...> see helmetLoop
 	  			currentFrame = 18;//>> Limit Here (lower)
-	  		} 
+	  		}
 	  		currentFrame--;
-	  	} 
+	  	}
 
-	  	var ALPHA2 = ALPHA;	
+	  	var ALPHA2 = ALPHA;
 	  	ctx.clearRect(0, 0, width, height);
 	  	ctx.drawImage(image, 0, height * currentFrame, width, height, 0, 0, width, height);
 	  	X[1] = X[0];

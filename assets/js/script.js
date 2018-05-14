@@ -4,8 +4,14 @@
     ------------------  */
 
 $(window).load(function () {
-    $('#preloader').delay(350).fadeOut('slow', function () {
-        $('.profile-page, .portfolio-page, .service-page, .contact-page').hide();
+    // $('#preloader').delay(350).fadeOut('slow', function () {
+    $('#preloader').delay(0).fadeOut('slow', function () {
+        // $('.profile-page, .portfolio-page, .service-page, .contact-page').hide();
+        //.profile-page => Interactive Studio
+        //.portfolio-page => Portfolio (cards)
+        //Tech Skills => .service-page
+        //.contact-page => About Me
+        // $('.portfolio-page, .contact-page').hide();
     });
 });
 
@@ -231,6 +237,12 @@ $(document).ready(function () {
         $('.home-page').css({
             visibility: 'visible'
         });
+
+        // $('#clickCanvas').css({
+            ctx.clearRect(0, 0, width, height);
+        // });
+
+
         $('.introduction, .menu').animate({
             left: 0
         }, 1000, 'easeOutQuart');
@@ -252,7 +264,7 @@ $(document).ready(function () {
     /*----------------------script for owl carousel sponsors---------------------*/
 
         $("#sponsor-list").owlCarousel({
-                 
+
             autoPlay: 3000, //Set AutoPlay to 3 seconds
             stopOnHover: true,
             items : 3,
@@ -310,6 +322,6 @@ $.fn.masonryImagesReveal = function ($items) {
     });
 
     return this;
-};    
+};
 
 });
