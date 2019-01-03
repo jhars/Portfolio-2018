@@ -68,9 +68,6 @@
                     /*----------------------
                        2 ) Preloader Styles
                       ----------------------*/
-    /*background: url(../img/landing/Chalkboard.png);
-    background: url(../img/right-panel/Cherry_Wood.jpg);*/
-
 
 #preloader {
     position: fixed;
@@ -167,13 +164,11 @@ h6 {
 }
 
 p {
-    /*font-size: 14px;*/
     font-size: 1em;
     line-height: 1.42;
 }
 
 h1 {
-    /*font-size: 63px;*/
     font-size: 5.063em;
     font-weight: 400;
     color:#ffffff;
@@ -245,7 +240,6 @@ body {
     z-index: 2000;
     background: url(../img/landing/Chalkboard.png);
     background-repeat: no-repeat;
-    /*background-size: 90%;*/
 }
 
 /* ( b ) Introduction Section */
@@ -289,10 +283,8 @@ body {
 }
 
 .intro-content h1 {
-    /*color: #4b4b4b;*/
     color: #ffffff;
     display: block;
-    /*font-family: 'Playfair Display', serif;*/
     font-family: 'Montserrat', sans-serif;
     padding-left: 50px;
     margin-bottom: -15px;
@@ -334,7 +326,6 @@ body {
     padding: 0;
     position: relative;
     background: #000;
-    /*padding-bottom: 100px;*/
 }
 
 .menu > div {
@@ -387,7 +378,6 @@ body {
     line-height: 60px;
     margin: auto auto 10px;
     text-align: center;
-    /*box-shadow: 0 0 0 0 rgba(256, 256, 256, 0.2);*/
     width: 60px;
     -webkir-transition: all 0.3s;
     -moz-transition: all 0.3s;
@@ -407,7 +397,6 @@ body {
     font-weight: 500;
     text-align: center;
     margin: 0;
-    /*opacity: 0.8;*/
     letter-spacing: 1px;
 }
 
@@ -478,7 +467,6 @@ body {
 
 #helmet360 {
     margin-right:75px;
-    /*padding-right:100px;*/
 }
 
 .text-muted {
@@ -508,10 +496,8 @@ body {
 .image-container {
     height: 100vh;
     position: fixed;
-    /*padding: 100px;*/
     overflow: hidden;
     right: 0;
-    /*width:450px;*/
     margin-left:180px;
     margin-bottom: 100px;
 }
@@ -532,7 +518,6 @@ body {
     -moz-transform-origin: left;
     -ms-transform-origin: left;
     -o-transform-origin: left;
-    /*bottom: 40%;*/
 }
 
 .main-heading h1 {
@@ -544,22 +529,10 @@ body {
     padding-bottom: 12%;
 }
 
-/*.main-heading h1:after {
-    background-color: #07397F;
-    position: absolute;
-    content: "";
-    top: 100%;
-    left: 0;
-    width: 400px;
-    height: 6px;
-}*/
-
 .content-container {
     left: 0;
     position: relative;
     padding: 0;
-    /*background: #ffffff;*/
-    /*background: url(../img/landing/Chalkboard.png);*/
 }
 
                     /*------------------
@@ -577,22 +550,13 @@ body {
 }
 
 .profile-page {
-    /*background: url(../img/landing/Chalkboard.png);*/
-    /*display: none;*/
     overflow: hidden;
 }
 
 .profile-page .image-container {
     background: url(../img/right-panel/Cherry_Wood.jpg);
-    /*background-color: #fff;*/
     background-size: cover;
     background-position: bottom;
-     /*background-size: 20%;*/
-    /*background-height:100%;*/
-    /*background-position: right;*/
-    /*background-color: #ffffff;*/
-    /*margin-left:00px;*/
-    /*background-repeat: no-repeat;*/
 }
 .services {
     text-align: center;
@@ -604,15 +568,9 @@ body {
     transition: all 0.3s;
 }
 
-
-.video {
-    /*box-shadow: 2px 5px 9px #dfdfdf;*/
-}
-
 .video iframe {
     width: 200px;
     height: 200px;
-    /*margin-top: 200px;*/
 }
 
 iframe {
@@ -641,14 +599,9 @@ iframe {
     font-size: 14px;
 }
 
-/* First, define the common wrapper elements
-   Padding-top is for the fixed height header of the embedded content */
-
 .youtubeWrapper {
-    /*position: relative;*/
     padding-top: 30px;
     height: 0;
-    /*overflow: hidden;*/
     padding-bottom: 56.25%;
 }
 
@@ -656,11 +609,8 @@ iframe {
 .youtubeWrapper iframe,
 .youtubeWrapper object,
 .youtubeWrapper embed {
-    /*position: absolute;*/
     top: 0;
     left: 0;
-    /*width: 100%;*/
-    /*height: 100%;*/
 }
 
 
@@ -684,7 +634,6 @@ iframe {
 .filter {
     background: none;
     border: 1px solid #07397F;
-    /*color: #07397F;*/
     color: #ffffff;
     margin: 10px 0;
     padding: 10px 25px;
@@ -854,18 +803,9 @@ iframe {
     border-color: #fff;
     line-height: 58px;
     position: absolute;
-    /*top: 40%;*/
-    /*left: 50%;*/
-
-    /*margin-left: 50px;
-    margin-right: 50px;*/
-
-    /*margin-top: -29px;*/
 }
 .flip-container
 {
-    /*margin-left: 50px;*/
-    /*margin-right: 50px;*/
     -webkit-perspective: 1000;
     -moz-perspective: 1000;
     -o-perspective: 1000;
@@ -883,12 +823,8 @@ iframe {
 
 .flip-container, .front, .back
 {
-    height: 470px;
-    /*width: 30px;*/
-    width:100%;
-    /*padding:15px;*/
-    /*margin:50px;*/
-    /*width:11%:*/
+    height: 150px;
+    width: 150px;
 }
 
 .flipper
@@ -907,10 +843,6 @@ iframe {
 
     position: relative;
 }
-.faq-desc-item
-{
-    /*margin: 15px 10px;*/
-}
 .front, .back
 {
     -webkit-backface-visibility: hidden;
@@ -925,14 +857,9 @@ iframe {
 .front
 {
     z-index: -1;
-    /*background-color: rgba(92, 145, 216, 0.27);*/
-    /*background-color: #f4f4f4;*/
     background: url(../img/right-panel/Dark_Wood.jpg);
-    /*width: 100%;*/
-    /*border-color:#07397F;*/
-    border: 3px solid #ffffff;
+    /* border: 3px solid #ffffff; */
     width:100%;
-    /*font-size: 36px;*/
 }
 .front h5, .back p
 {
