@@ -1,24 +1,24 @@
 // window.addEventListener('load', initControl, false);
 
-var canvas = document.getElementById("clickCanvas");
-var ctx = canvas.getContext("2d");
+// var canvas = document.getElementById("clickCanvas");
+// var ctx = canvas.getContext("2d");
 
 // var image = new Image()
 // image.src = 'http://i.imgur.com/BfY4QW5.png';
 
-var frames = 100;
-var bottomFrame = 18;
-var currentFrame;
-var currentFrame = 18;
-var click = false;
-var width = 109;
-var height = 81.75;
-var B;
-var ALPHA;
-var DIFF = 0;
+// var frames = 100;
+// var bottomFrame = 18;
+// var currentFrame;
+// var currentFrame = 18;
+// var click = false;
+// var width = 109;
+// var height = 81.75;
+// var B;
+// var ALPHA;
+// var DIFF = 0;
 // ctx.drawImage(image, 0, height * currentFrame, width, height, 0, 0, width, height);
 
-function initControl() {
+// function initControl() {
 	// var X = [];
 	// var DELTA;
   //
@@ -67,4 +67,4 @@ function initControl() {
   //
 	// }
 
-}
+// }
