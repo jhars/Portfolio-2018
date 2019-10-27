@@ -474,17 +474,17 @@ body {
     color: #818a91;
 }
 
-#canvasDiv {
+/* #canvasDiv {
     color: #ffffff;
-}
+} */
 
-#clickCanvas {
+/* #clickCanvas {
     background: url("../img/360logo.png");
     background-repeat: no-repeat;
     width:450px;
     height: 80%;
     margin: auto;
-}
+} */
 
 .contact-page {
     position: absolute;
