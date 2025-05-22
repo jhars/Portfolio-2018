@@ -13,10 +13,10 @@
     margin-right: 100px;
     margin-top: 70px;
     margin-bottom: 70px;*/
-    padding-left: 100px;
+    /*padding-left: 100px;
     padding-right: 100px;
     padding-top: 70px;
-    padding-bottom: 70px;
+    padding-bottom: 70px;*/
 
 }
 /*HERE*/
@@ -32,7 +32,7 @@
 }
 
 .popup-content img {
-    width: 50%;
+    width: 30%;
     z-index:999;
 }
 
@@ -45,15 +45,18 @@ img.hidden-xs {
     border: 5px solid #07397F;
     z-index:1999;
     height:50%;
+/*    width: 50%;*/
     /*margin-left: 200px;
     margin-right: 200px;*/
+/*    margin: 200px;*/
+    margin: auto;
     background: url(../img/right-panel/Light_Wood.jpg);
-/*    background-size: 100%;*/
+/*    background-size: 25%;*/
     /*padding-left: 100px;
     padding-right: 100px;
     padding-top: 70px;
     padding-bottom: 70px;*/
-    padding: 75px;
+/*    padding-bottom: 100px;*/
 
 }
 
@@ -156,8 +159,9 @@ img.hidden-xs {
     .popup_content {
         border: 5px solid #07397F;
         z-index:1999;
-        width: 350px;
-        margin-top: 50px;
+        width: 300px;
+        margin: 15px;
+        padding-bottom: 15px;
         background: url(../img/right-panel/Light_Wood.jpg);
     }
 }
