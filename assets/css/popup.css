@@ -8,12 +8,14 @@
 .pop-up-box {
     display: none;
     text-align: center;
+    padding: 35px;
 
 }
-#pop-margin { /*HERE*/
+/*HERE*/
+/*#pop-margin { 
 
     padding:35px;
-}
+}*/
 .desc {
 
 }
