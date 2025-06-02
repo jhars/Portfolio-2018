@@ -65,7 +65,7 @@ $(document).ready(function () {
             });
 
             $('.menu').css({
-                'padding-bottom': '50px',
+                'padding-bottom': '10px',
                 background: 'url(../img/landing/Chalkboard.png)'
 
             });

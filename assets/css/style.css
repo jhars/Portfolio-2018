@@ -317,10 +317,35 @@ body {
     font-weight: 400;
     font-size: 40px;
     padding-left: 21px;
-    padding-top: 30px;
+/*    padding-top: 30px;*/
     /* margin-bottom: 30px; */
 }
 
+/*.jh-intro {
+    align-items: center;
+}*/
+
+.self-intro {
+    font-size:1em;
+    padding-left: 21px;
+}
+
+.intro-content-global {
+    font-size: 3em;
+    font-weight: 700;
+    line-height: 1.0;
+    letter-spacing: 1px;
+    padding-left: 21px;
+/*    float: left;*/
+   -webkit-text-fill-color: #1C2D4F; /* Will override color (regardless of order) */
+   -webkit-text-stroke-width: 2px;
+   -webkit-text-stroke-color: white;
+}
+
+.self-description {
+    font-size:1em;
+    padding-left: 21px;
+}
 
 /* ( c ) Navigation Menu */
 
@@ -408,10 +433,10 @@ body {
     color: #ffffff;
 }
 
-.bottom-bar {
+/*.bottom-bar {
     height: 100px;
     background-color: blue;
-}
+}*/
 
 
 
@@ -442,11 +467,6 @@ body {
     min-height: calc(100vh - 68px);
 }
 
-#bayView {
-    margin-top:50px;
-
-
-}
 #touch-video {
     padding:20px;
     font-size: 58px;
@@ -1168,7 +1188,7 @@ input#cfsubmit:hover {
 
 @media (max-width: 767px) {
     .introduction {
-        text-align: center;
+/*        text-align: center;*/
         z-index: 9999;
         background-color: #fff;
     }
@@ -1183,7 +1203,7 @@ input#cfsubmit:hover {
     }
 
     .intro-content span {
-        font-size: 75px;
+        font-size: 60px;
     }
 
     .intro-content span.number {
@@ -1192,16 +1212,12 @@ input#cfsubmit:hover {
     }
 
     .intro-content .slogan-text {
-        margin-top: 14px;
+/*        margin-top: 14px;*/
         font-size: 20px;
     }
 
     .close-btn {
         background: url(../img/close_sm.png);
-    }
-
-    .intro-content .slogan-text {
-
     }
 
     .menu .heading h2 {
